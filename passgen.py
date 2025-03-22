@@ -71,7 +71,6 @@ Generated Password:
     )
 
 def main():
-    print (' '.join(sys.argv))
     password_length = prompt_length()
     character_types = prompt_character_types()
     password = generate_password(password_length, character_types)
